@@ -1,0 +1,7 @@
+CREATE TABLE `T_TEST`
+(
+    `id` BIGINT(20) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) DEFAULT NULL,
+    `age` INT(11) DEFAULT 0,
+    PRIMARY KEY (`id`)
+);
