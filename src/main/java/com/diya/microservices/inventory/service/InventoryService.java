@@ -15,4 +15,6 @@ public interface InventoryService {
     ResponseEntity<Object> updateInventory(Long id, Integer quantity) throws Exception;
 
     ResponseEntity<Object> isInStock(String skuCode, Integer quantity) throws Exception;
+
+    ResponseEntity<Object> removeInventory(String skuCode) throws Exception;
 }
